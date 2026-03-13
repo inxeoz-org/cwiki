@@ -246,3 +246,17 @@ override_doctype_class = {"Wiki Page": "cwiki.overrides.wiki_page.CustomWikiPage
 # ------------
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
+
+
+fixtures = [
+	# Specific Roles
+	{"doctype": "Role", "filters": [["name", "in", ["developer", "public user"]]]},
+	# Only Custom Permission Overrides
+	{"doctype": "Custom DocPerm"},
+	# Custom Fields only for specific doctypes
+	{"doctype": "Custom Field"},
+	# Property Setters (very important if you modified forms)
+	{"doctype": "Property Setter"},
+	{"doctype": "User"},
+	# Workflows
+]

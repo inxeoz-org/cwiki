@@ -132,7 +132,7 @@ app_license = "mit"
 # override_doctype_class = {
 # 	"ToDo": "custom_app.overrides.CustomToDo"
 # }
-
+override_doctype_class = {"Wiki Page": "cwiki.overrides.wiki_page.CustomWikiPage"}
 # Document Events
 # ---------------
 # Hook on document methods and events
@@ -246,4 +246,3 @@ app_license = "mit"
 # ------------
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
-

@@ -27,7 +27,16 @@ app_license = "mit"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/cwiki/css/cwiki.css"
 # app_include_js = "/assets/cwiki/js/cwiki.js"
+#
+web_include_js = [
+	"/assets/cwiki/js/mermaid.min.js",
+	"/assets/cwiki/js/mermaid_init.js",
+]
 
+# app_include_js = [
+# 	"/assets/cwiki/js/mermaid.min.js",
+# 	"/assets/cwiki/js/mermaid_init2.js",
+# ]
 # include js, css files in header of web template
 # web_include_css = "/assets/cwiki/css/cwiki.css"
 # web_include_js = "/assets/cwiki/js/cwiki.js"

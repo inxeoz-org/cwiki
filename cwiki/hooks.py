@@ -30,7 +30,7 @@ app_license = "mit"
 #
 web_include_js = [
 	"/assets/cwiki/js/mermaid.min.js",
-	"/assets/cwiki/js/mermaid_init.js",
+	"/assets/cwiki/js/mermaid.js",
 ]
 
 # app_include_js = [
@@ -265,6 +265,6 @@ fixtures = [
 	# Custom Fields only for specific doctypes
 	{"doctype": "Custom Field"},
 	# Property Setters (very important if you modified forms)
-	{"doctype": "Property Setter"}
+	{"doctype": "Property Setter"},
 	# Workflows
 ]

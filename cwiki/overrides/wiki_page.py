@@ -35,7 +35,7 @@ class CustomWikiPage(WikiPage):
 
 		if not allowed_role:
 			frappe.local.response.http_status_code = 403
-			frappe.throw(_(f"You are not permitted to access this page {self.title}"), frappe.PermissionError)
+			frappe.throw((f"You are not permitted to access this page {self.title}"), frappe.PermissionError)
 
 	def get_sidebar_items(self):
 		wiki_sidebar = frappe.get_doc("Wiki Space", {"route": self.get_space_route()}).wiki_sidebars

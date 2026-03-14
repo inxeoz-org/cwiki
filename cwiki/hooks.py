@@ -265,7 +265,6 @@ fixtures = [
 	# Custom Fields only for specific doctypes
 	{"doctype": "Custom Field"},
 	# Property Setters (very important if you modified forms)
-	{"doctype": "Property Setter"},
-	{"doctype": "User"},
+	{"doctype": "Property Setter"}
 	# Workflows
 ]
